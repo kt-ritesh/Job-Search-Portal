@@ -26,15 +26,15 @@ Job Search Portal is a Spring Boot application to find job.
 ## Data Model
 The Job class defined in the model packages, which has the following attributes with some validation:<br>
 
-id<br> : @Id
+id : @Id<br> 
 title<br>
 description<br>
 location<br>
-salary<br>: @Min(20000)
+salary : @Min(20000)<br>
 companyEmail<br>
 companyName<br>
 employerName<br>
-jobType<br>: Enum
+jobType : Enum<br>
 appliedDate<br>
 
 
